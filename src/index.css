@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+
+
+  
+
+  font-family: var(--font-family);
+                                      
+      
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.popupHeader .btn-close {
+  position: absolute;
+  top: -10px;
+  right: -25px;
+  border-radius: 50%;
+  opacity: 1;
+  font-size: 12px;
+  filter: invert(1);
 }
