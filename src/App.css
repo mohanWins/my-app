@@ -36,7 +36,7 @@
     transform: rotate(360deg);
   }
 }
-.form-check-input:checked[type=checkbox] {
+.form-check-input:checked[type="checkbox"] {
   background-color: red;
 }
 body.modal-open > :not(.modal) {
@@ -45,4 +45,55 @@ body.modal-open > :not(.modal) {
   -o-filter: blur(1px);
   -ms-filter: blur(1px);
   filter: blur(1px);
+}
+.rdx:hover {
+  background-color: red;
+}
+.passBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white !important;
+
+  border: 1px solid gainsboro;
+}
+.passBtn:hover {
+  background-color: red !important;
+
+  color: white !important;
+}
+.ant-layout-sider-children {
+  background-color: white;
+}
+
+.ant-menu-title-content {
+  text-align: end;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+ul li {
+  display: inline-block;
+}
+.loginButton Button .button:hover {
+  background-color: black;
+}
+
+.welcomeCard:hover {
+  background-color: red !important;
+  color: white !important;
+}
+
+.circle {
+  height: 15px;
+  width: 15px;
+  border: 1px solid #ccc;
+  border-radius: 100%;
+  align-items: center;
+}
+.active {
+  background: red;
+  border-color: red;
 }
